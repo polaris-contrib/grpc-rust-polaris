@@ -1,0 +1,16 @@
+[package]
+name = "polaris-grpc"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "grpc-rust integrates with polaris-rust."
+homepage = "https://github.com/polarismesh/grpc-rustpolaris"
+repository = "https://github.com/polarismesh/grpc-rust-polaris.git"
+readme = "README.md"
+keywords = ["polaris", "solution", "governance", "server", "proxyless"]
+categories = ["config", "asynchronous", "development-tools"]
+include = ["src/**/*", "Cargo.toml", "README.md", "LICENSE-MIT", "LICENSE-APACHE"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
