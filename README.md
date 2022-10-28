@@ -15,10 +15,12 @@ gRPC-Rust-Polaris provides a series of components based on gRPC-Rust framework, 
 Add the following to your `Cargo.toml`:
 ```toml
 [dependencies]
-polaris-grpc = "0.1"
+polaris-grpc = "0.1.1"
 ```
 
 ## Quickstart
+
+rust version >= 1.63.0
 
 ```rust
 
