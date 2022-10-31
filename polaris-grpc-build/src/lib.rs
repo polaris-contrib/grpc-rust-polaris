@@ -103,7 +103,7 @@ mod tests {
 
     #[test]
     fn gen_code() {
-        // let _ = GRPCBuilder::new().gen_code();
+        // let _ = GRPCBuilder::new().generate();
         let _ = GRPCBuilder::new()
             .with_proto_dir("./examples/proto")
             .with_out_dir("./examples/src/rust_grpc")
